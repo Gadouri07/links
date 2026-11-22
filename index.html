@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My contact links</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 24px 16px;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+        }
+
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #38bdf8;
+            margin-bottom: 14px;
+            background-color: #334155;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 24px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.08);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            font-weight: 600;
+            transition: transform 0.2s, background 0.2s, border-color 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            background: rgba(56, 189, 248, 0.18);
+            border-color: #38bdf8;
+        }
+
+        .btn i {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="profile.jpg" alt="ABDELKADER BEDDIAF" class="avatar">
+        <h1>ABDELKADER BEDDIAF</h1>
+        <div class="links">
+            <a class="btn" href="https://instagram.com/bdlqdrbdyf" target="_blank">
+                <i class="fa-brands fa-instagram"></i> إنستغرام
+            </a>
+            <a class="btn" href="https://facebook.com/share/Yw4E9Kh1A/" target="_blank">
+                <i class="fa-brands fa-facebook"></i> فيسبوك
+            </a>
+            <a class="btn" href="https://tiktok.com/@boss_be_07" target="_blank">
+                <i class="fa-brands fa-tiktok"></i> تيك توك
+            </a>
+            <a class="btn" href="https://wa.me/213658588467" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> واتساب
+            </a>
+            <a class="btn" href="tel:+213658588467">
+                <i class="fa-solid fa-phone"></i> اتصال هاتفي
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
